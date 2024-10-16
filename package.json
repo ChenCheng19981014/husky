@@ -17,13 +17,12 @@
     }
   },
   "lint-staged": {
-    "*.js": [
-      "eslint --fix",
-      "git add"
+    "*.{js,vue,ts,jsx,tsx}": [
+      "prettier --write",
+      "eslint --fix"
     ],
-    "*.jsx": [
-      "eslint --fix",
-      "git add"
+    "*.{html,css,less,scss,md}": [
+      "prettier --write"
     ]
   },
   "dependencies": {
@@ -38,6 +37,7 @@
     "globals": "^15.11.0",
     "husky": "^9.1.6",
     "lint-staged": "^15.2.10",
+    "prettier": "^3.3.3",
     "vite": "^5.4.8"
   }
 }
