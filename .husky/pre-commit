@@ -1,1 +1,3 @@
-npm test
+
+# 运行 lint-staged
+npx --no-install lint-staged
