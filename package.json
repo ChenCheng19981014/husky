@@ -9,7 +9,7 @@
     "preview": "vite preview",
     "lint-staged": "lint-staged",
     "prepare": "husky",
-    "lint:lint-staged": "lint-staged"
+    "lint": "lint-staged"
   },
   "lint-staged": {
     "*.{js,ts,vue}": [
