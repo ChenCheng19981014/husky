@@ -1,9 +1,0 @@
-/.husky/*
-/.vscode/*
-/bin
-/node_modules/*
-/docs/*
-/html/*
-/dist/*
-/public/*
-/scripts/*
