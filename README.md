@@ -1,5 +1,10 @@
-# Vue 3 + Vite
+yarn add eslint@8.57.0 --dev
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+yarn add prettier eslint-config-prettier eslint-config-airbnb-base eslint-plugin-import eslint-plugin-vue eslint-plugin-prettier vite-plugin-eslint --dev
 
-Learn more about IDE Support for Vue in the [Vue Docs Scaling up Guide](https://vuejs.org/guide/scaling-up/tooling.html#ide-support).
+yarn add stylelint stylelint-config-recess-order stylelint-config-recommended-scss stylelint-config-standard
+stylelint-config-standard-scss stylelint-config-standard-vue --dev
+
+yarn add lint-staged --dev
+
+yarn add husky @commitlint/cli @commitlint/config-conventional commitizen cz-git --dev
