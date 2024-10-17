@@ -1,5 +1,5 @@
 <script setup>
-console.log(' a :', a)
+console.log(' a牛逼啊:', a);
 </script>
 
 <template>
