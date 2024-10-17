@@ -9,8 +9,7 @@ export default [
   ...pluginVue.configs['flat/essential'],
   {
     rules: {
-      semi: [2, 'always'],
-      'no-undef': 0, // 可以 有未定义的变量
+      'no-undef': 2, // 可以 有未定义的变量
     },
   },
 ]
