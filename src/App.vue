@@ -1,5 +1,6 @@
 <script setup>
-console.log(' a牛逼啊:', a);
+const a = 1
+console.log(' 输出A:', a)
 </script>
 
 <template>
