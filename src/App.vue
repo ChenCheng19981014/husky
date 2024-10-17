@@ -1,5 +1,5 @@
 <script setup>
-console.log(' 1 :', 1)
+console.log(' a :', a)
 </script>
 
 <template>

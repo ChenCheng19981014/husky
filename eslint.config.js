@@ -10,6 +10,7 @@ export default [
   {
     rules: {
       semi: [2, 'always'],
+      'no-undef': 0, // 可以 有未定义的变量
     },
   },
 ]
