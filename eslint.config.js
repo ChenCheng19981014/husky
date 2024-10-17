@@ -7,4 +7,9 @@ export default [
   { languageOptions: { globals: { ...globals.browser, ...globals.node } } },
   pluginJs.configs.recommended,
   ...pluginVue.configs['flat/essential'],
+  {
+    rules: {
+      semi: [2, 'always'],
+    },
+  },
 ]
