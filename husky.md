@@ -1,7 +1,7 @@
 # husky
 ## 安装
 ```bash
-npm install husky lint-staged @commitlint/cli @commitlint/config-conventional -D
+yarn add husky lint-staged @commitlint/cli @commitlint/config-conventional -D
 ```
 ## 文档
 - [https://typicode.github.io/husky/zh/](https://typicode.github.io/husky/zh/)
@@ -26,6 +26,11 @@ npx husky init
 ```
 
 ## commitlint配置
+
+```这样安装
+
+yarn add @commitlint/config-conventional @commitlint/cli -D
+
 ```js
 // .commitlintrc.js
 // https://www.npmjs.com/package/@commitlint/config-conventional
